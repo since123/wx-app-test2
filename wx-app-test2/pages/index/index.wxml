@@ -1,0 +1,21 @@
+  <view class="group">
+    <block wx:for="{{iconSize}}">
+      <icon type="success" size="{{item}}"></icon>
+    </block>
+  </view>
+  <view class="group">
+    <block wx:for="{{iconType}}">
+      <icon type="{{item}}" size="40"></icon>
+    </block>
+  </view>
+  <view class="group">
+    <block wx:for="{{iconColor}}">
+      <icon type="success" size="40" color="{{item}}"></icon>
+    </block>
+  </view>
+  <progress percent="20" show-info />
+  <progress percent="40" stroke-width="12" show-info stroke-width="20" activeColor="yellow"/>
+  <progress percent="60" color="pink" show-info font-size="50" color="red" />
+  <progress percent="80" active show-info border-radius="4" activeColor="yellow" active-mode="forwards" />
+  <rich-text nodes="{{nodes}}" bindtap="tap">888</rich-text>
+  <navigator url="../../pages/sample/sample">链接到sample</navigator >

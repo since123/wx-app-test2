@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/text/text",
+    "pages/redirect/redirect",
+    "pages/navigator/navigator",
+    "pages/sample/sample"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#aaa",
+    "navigationBarTitleText": "wx-app-test",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
